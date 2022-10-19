@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+.infoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+} 
+.devInfo{
+    width: 90%;
+    font-size: 43px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    margin: auto;
+    padding: 10px;
+    color: white;
+}
+.hello {
+    font-size: 1.3em;
+}
+.name {
+    font-size: 3em;
+}
+.about {
+    font-size: 1.5em;
+}
+.moreabout {
+    margin-top: 23px;
+    font-size: 0.8em;
+}
+.buttons button {
+    background: #520dcf;
+    color:#3bd9d9;
+    font-weight:bold;
+    font-size:17px;
+    text-transform: uppercase;
+    padding:16px 36px;
+    border: 1px solid black;
+    border-radius: 32px;
+    transform: translate(0);
+    overflow: hidden;
+    cursor:pointer;
+}
+body, .bg{
+    background:  no-repeat center/cover url('../img/redfish.jpg');
+    background-size: cover;
+    margin-top:20px;
+}
+.center {
+    text-align: center;
+    height: 100%;
+    color:white;
+    margin: 80px 10px;
+}
+.skillContainer{
+    color:white;
+    /* height:100vh; */
+}
+.para{
+    margin: 10px 0;
+}
+.head {
+    font-size: 44px;
+}
+.pHead{
+    margin-top:47px;
+}
+.blogItem{
+    display:inline-block;
+    margin:20px;
+}
+
+.btnSm{
+    margin: 7px;
+    padding: 4px;
+}
+
+.contactForm{
+    margin:10px;
+}
+.formDiv{
+    display: flex;
+    /* width: 90%; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form-control{
+    width: 460px;
+    font-size: 19px;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 7px;
+    padding: 7px;}
+.form-text{
+    color:grey;
+}
+.cBtn button{
+    margin: 15px;
+}
+.blogContainer{
+    display:flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    width:100%;
+}
+.blogBox{
+    display: inline-block;
+    }
+.blogItem{
+    text-align: center;
+    height:266px;
+    width:350px;
+    /* border:2px solid black; */
+    margin:10px;
+    /* border-radius: 10px; */
+    /* background-color: aqua; */
+    }
+.skillItem h1{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 3px;
+    background: #4b6363;
+    width: 192px;
+}

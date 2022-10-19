@@ -1,0 +1,31 @@
+@media screen and (max-width: 1050px) {
+.hello {
+    font-size: 1.3em;
+}
+.name {
+    font-size: 2em;
+}
+.about {
+    font-size: 0.5em;
+}
+.moreabout {
+    margin-top: 23px;
+    font-size: 0.6em;
+}
+.buttons button {
+    background: #520dcf;
+    color:#3bd9d9;
+    font-weight:bold;
+    font-size:17px;
+    text-transform: uppercase;
+    padding: 11px 17px;
+        border: 1px solid black;
+    border-radius: 32px;
+    transform: translate(0);
+    overflow: hidden;
+    cursor:pointer;
+}
+.form-control {
+    width: 324px;
+}
+}
