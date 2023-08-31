@@ -1,11 +1,11 @@
 import React from 'react'
 import './portfolio.css'
 import PortfolioItems from './PortfolioItems'
-import IMG1 from '../../images/portfolio1.jpg'
-import IMG2 from '../../images/portfolio2.jpg'
-import IMG3 from '../../images/portfolio3.jpg'
-import IMG4 from '../../images/portfolio4.jpg'
-import IMG5 from '../../images/portfolio5.png'
+import IMG1 from '../../images/bg.png'
+import IMG2 from '../../images/bg.png'
+import IMG3 from '../../images/bg.png'
+import IMG4 from '../../images/bg.png'
+import IMG5 from '../../images/bg.png'
 
 function Portfolio() {
   return (
