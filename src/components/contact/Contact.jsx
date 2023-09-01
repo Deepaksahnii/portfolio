@@ -16,8 +16,9 @@ function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_avblxh5', 'Gmail', form.current, 'zBn5xYsIcYiI7T6Ot')
+    emailjs.sendForm('service_cljiatg', 'template_icj49b3', form.current, 'zBn5xYsIcYiI7T6Ot')
       .then((result) => {
+        alert("Your Message sent successfully.")
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
