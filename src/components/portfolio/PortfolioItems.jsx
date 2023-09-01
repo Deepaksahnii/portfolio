@@ -10,7 +10,7 @@ const PortfolioItems = (property) => {
           </div>
           <h3>{property.title}</h3>
           <div className="portfolio__item-cta">
-          <a href={property.link} className='btn' target='_blank' rel='noopener noreferrer'>Github</a>
+          <a href={property.link} className='btn' target='_blank' rel='noopener noreferrer'>Visit</a>
           </div>
         </article>
     </div>
