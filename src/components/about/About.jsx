@@ -40,7 +40,7 @@ const About = () => {
           </div>
 
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi adipisci optio dicta quidem corrupti nobis quas autem. Atque ut nisi mollitia vero error minima reiciendis vitae autem, dolore consequatur nesciunt fugit? Voluptatum, amet nihil.
+          Hello, I'm Deepak Sahni, a web developer from the picturesque state of Uttarakhand, India. I'm deeply passionate about creating immersive online experiences and have honed my skills in various web technologies to make that happen. My journey in web development has been marked by creativity, innovation, and a relentless pursuit of excellence.
           </p>
           <a href='#contact' className='btn btn-primary'>Contact Me</a>
         </div>
@@ -49,4 +49,4 @@ const About = () => {
   )
 }
 
-export default About
+export default About;

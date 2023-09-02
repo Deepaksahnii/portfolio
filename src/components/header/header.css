@@ -25,12 +25,17 @@ header {
 .header__socials {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 0.8rem;
-
     position: absolute;
-    left: 0;
-    bottom: 8rem;
+    gap: 1rem;
+}
+
+.header__socials::before {
+    position: relative;
+    left: 6px;
+    content: "";
+    border: 1px solid #4db5ff;
+    width: 0;
+    height: 0.8rem;
 }
 
 /* ============Image=========== */
@@ -50,13 +55,32 @@ header {
 
 /* ===========scroll bar design============== */
 
-.scroll__down {
-    position: absolute;
-    right: -2.3rem;
-    bottom: 10rem;
+/* .scroll__down {
+    display: flex;
+    position: relative;
+    /* right: 0; 
+    bottom: 9.5rem;
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;
+} */
+.scroll__down {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    transform: rotate(90deg);
+    left:25rem;
+    top:2rem;
+}
+
+.scroll__down::after {
+    position: absolute;
+    content: "";
+    border: 1px solid #4db5ff;
+    width: 6rem;
+    top:0.9rem;
+    right:20rem;
 }
 
 /* ============responsive design================ */
