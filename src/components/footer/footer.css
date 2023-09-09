@@ -8,6 +8,7 @@ footer{
 
 footer a{
     color: var(--color-bg);
+    margin:0.3rem;
 }
 
 .footer__logo{
@@ -22,7 +23,6 @@ footer a{
     flex-wrap: wrap;
     justify-content: center;
     gap: 3rem;
-    margin: 0 auto 3rem;
 }
 
 .footer__socials{
@@ -36,6 +36,7 @@ footer a{
     background: var(--color-bg);
     color: var(--color-white);
     padding: 0.8rem;
+    margin:0.3rem;
     border-radius: 0.7rem;
     display: flex;
     border: 1px solid transparent;
@@ -61,6 +62,7 @@ footer a{
 
     .footer__socials{
         margin-bottom: 2.6rem;
+        margin:2rem;
     }
     
 }

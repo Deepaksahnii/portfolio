@@ -97,6 +97,7 @@
 
     .about__content{
         text-align: center;
+        margin: 0 0.3rem;
     }
 
     .about__content p{
