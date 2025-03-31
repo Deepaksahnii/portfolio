@@ -5,6 +5,7 @@ import IMG1 from '../../images/bg1.png'
 import IMG2 from '../../images/bg2.png'
 import IMG3 from '../../images/bg3.png'
 import IMG4 from '../../images/bg4.png'
+import IMG4 from '../../images/bg5.png'
 
 function Portfolio() {
   return (
@@ -17,6 +18,7 @@ function Portfolio() {
          <PortfolioItems image={IMG2} title="INotebook To-do" link="https://inoteboook.netlify.app/"/>
          <PortfolioItems image={IMG3} title="Responsive-Website" link="https://responsivewpage.netlify.app"/>
          <PortfolioItems image={IMG4} title="NetFlix clone" link="https://clonenetflixsite.netlify.app/"/> 
+         <PortfolioItems image={IMG5} title="TextUtils" link="https://textutils3.netlify.app/"/> 
       </div>
     </section>
   )
