@@ -1,4 +1,3 @@
-This is portfolio website for fresher and students
 
 To run this website you will NODE JS installed on your system
 

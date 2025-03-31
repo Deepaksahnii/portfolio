@@ -19,6 +19,7 @@ function Portfolio() {
          <PortfolioItems image={IMG3} title="Responsive-Website" link="https://responsivewpage.netlify.app"/>
          <PortfolioItems image={IMG4} title="NetFlix clone" link="https://clonenetflixsite.netlify.app/"/> 
          <PortfolioItems image={IMG5} title="TextUtils" link="https://textutils3.netlify.app/"/> 
+         <PortfolioItems image={IMG5} title="TextUtils" link="https://textutils3.netlify.app/"/> 
       </div>
     </section>
   )
