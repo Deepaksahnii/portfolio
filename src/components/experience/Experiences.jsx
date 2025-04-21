@@ -10,6 +10,8 @@ import {SiBootstrap} from 'react-icons/si'
 import {SiReact} from 'react-icons/si'
 import {SiNodedotjs} from 'react-icons/si'
 import {SiMongodb} from 'react-icons/si'
+import {SiRuby} from 'react-icons/si'
+import {SiRubyonrails} from 'react-icons/si'
 import ExpComponent from './ExpComponent'
 
 
@@ -30,7 +32,7 @@ const Experiences = ()=> {
             <ExpComponent icon={DiCss3} name="CSS" epe="Intermediate"/>
             <ExpComponent icon={IoLogoJavascript} name="JavaScript" epe="Intermediate"/>
             <ExpComponent icon={SiBootstrap} name="BootStrap" epe="Basic"/>
-            <ExpComponent icon={SiReact} name="ReactJs" epe="Intermediate"/>
+            <ExpComponent icon={SiReact} name="ReactJs" epe="Intermediate"/> 
           </div>
         </div>
 
@@ -41,7 +43,9 @@ const Experiences = ()=> {
         <h3>backend developement</h3>
           <div className="experiences__content">
           <ExpComponent icon={SiNodedotjs} name="NodeJs" epe="Basic"/>
-          <ExpComponent icon={SiMongodb} name="MongoDB" epe="Basic"/>        
+            <ExpComponent icon={SiMongodb} name="MongoDB" epe="Basic" />   
+            <ExpComponent icon={SiRuby} name="Ruby" epe="Intermediate"/>
+            <ExpComponent icon={SiRubyonrails} name="RubyOnRails" epe="Intermediate"/>  
         </div>
         
         </div>
